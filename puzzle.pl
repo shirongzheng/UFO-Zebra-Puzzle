@@ -27,6 +27,6 @@ members([[_,_,balloon],[_,_,frisbee],[_,_,clothesline],[_,_,water_tower]],Days),
 member([_,NOT_mr_hugh,frisbee],Days), NOT_mr_hugh \= mr_hugh,
 member([_,NOT_ms_langone,frisbee],Days), NOT_ms_langone \= ms_langone,
 member([tuesday,NOT_ms_demetri,_],Days), NOT_ms_demetri \= ms_demetri,
-member([_,NOT_ms_langone,water_tower],Days), NOT_ms_langone \= ms_langine,
+member([_,NOT_ms_langone,water_tower],Days), NOT_ms_langone \= ms_langone,
 write(Days),
    nl.
